@@ -2,7 +2,7 @@ n=input()
 if n=='S':
     print('Superior')
 elif n=='A':
-    print('Exellent')
+    print('Excellent')
 elif n=='B':
     print('Good')
 elif n=='C':
