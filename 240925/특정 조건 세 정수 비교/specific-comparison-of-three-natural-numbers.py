@@ -1,10 +1,10 @@
 a,b,c=map(int,input().split())
 
-if a<b and a<c:
+if a<=b and a<=c:
     print(1, end=" ")
-elif b<c and a==b:
+elif b<=c and a==b:
     print(1, end=" ")
-elif c<b and a==c:
+elif c<=b and a==c:
     print(1, end=" ")
 else:
     print(0, end=" ")
