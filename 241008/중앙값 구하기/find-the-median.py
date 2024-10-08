@@ -5,5 +5,7 @@ if a>b:
         print(b)
     else:
         print(a)
-else:
+elif b>c:
     print(c)
+else:
+    print(b)
