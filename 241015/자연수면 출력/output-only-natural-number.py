@@ -4,5 +4,4 @@ if a>0:
     for _ in range(b):
         print(a,end="")
 else:
-    for _ in range(b):
-        print(0)
+    print(0)
