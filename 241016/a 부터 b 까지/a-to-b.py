@@ -1,8 +1,11 @@
 a,b=map(int,input().split())
 
-int i=a
-for i in range(a,b+1):
-    if (i%2)==0:
-        print(i)
-    i+=3
-    elif (i%3)==0:
+i=a
+for a in range(a,b+1):
+    if a==i:
+        if (i%2)==0:
+            print(i,end=" ")
+            i+=3
+        else:
+            print(i,end=" ")
+            i*=2
