@@ -5,7 +5,7 @@ cnt_a=0
 cnt_b=0
 cnt_c=0
 
-for _ in range(n+1):
+for _ in range(n):
 
     if (i%12)==0:
         cnt_c+=1
