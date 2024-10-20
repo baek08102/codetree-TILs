@@ -7,5 +7,5 @@ for i in range(1,n*2):
         print(cnt)
         break
     else:
-        n/=i
+        n//=i
         cnt+=1
