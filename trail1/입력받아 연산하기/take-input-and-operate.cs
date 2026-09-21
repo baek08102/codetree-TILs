@@ -7,6 +7,7 @@ public class Codetree
         int a = int.Parse(Console.ReadLine());
         int b = int.Parse(Console.ReadLine());
 
-        Console.Write($"{a+87}\n{b%10}");
+        Console.WriteLine(a+=87);
+        Console.WriteLine(b%=10);
     }
 }
